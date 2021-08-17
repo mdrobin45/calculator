@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- TailwindCss -->
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body class="m-2 bg-gray-100">
+    <main class="w-1/4 m-auto mt-60">
+        <header>
+            <input class="w-full rounded-t-xl p-3 text-right disabled bg-red-400 text-6xl" id="displayCalculation"
+                type="text">
+        </header>
+        <div class="bg-white py-5 rounded-b-2xl">
+            <div class="flex mt-3">
+                <input id="btn-7" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="7">
+                <input id="btn-8" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="8">
+                <input id="btn-9" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="9">
+                <input id="btn-plus" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="+">
+            </div>
+            <div class="flex mt-3">
+                <input id="btn-4" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="4">
+                <input id="btn-5" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="5">
+                <input id="btn-6" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="6">
+                <input id="minus" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="-">
+            </div>
+            <div class="flex mt-3">
+                <input id="btn-1" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="1">
+                <input id="btn-2" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="2">
+                <input id="btn-3" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="3">
+                <input id="multiple" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="*">
+            </div>
+            <div class="flex mt-3">
+                <input id="zero" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="0">
+                <input id="float" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value=".">
+                <input id="divided" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="/">
+                <input id="equal" class="rounded-full mx-3 bg-gray-200 w-14 h-14 text-2xl font-bold text-gray-600"
+                    type="submit" value="=">
+            </div>
+        </div>
+    </main>
+    <!-- Script Files -->
+    <script src="js/calculate.js"></script>
+</body>
+
+</html>
